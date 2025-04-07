@@ -1,0 +1,5 @@
+class AlbumsModel {
+  // members
+
+  // fromJson
+}

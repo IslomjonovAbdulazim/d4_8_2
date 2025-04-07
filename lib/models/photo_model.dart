@@ -1,0 +1,5 @@
+class PhotoModel {
+  // members
+
+  // fromJson
+}

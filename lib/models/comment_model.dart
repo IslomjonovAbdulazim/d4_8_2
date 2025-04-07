@@ -1,0 +1,5 @@
+class CommentModel {
+  // members
+
+  // fromJson
+}

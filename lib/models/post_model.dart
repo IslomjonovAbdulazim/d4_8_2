@@ -1,0 +1,5 @@
+class PostModel {
+  // members
+
+  // fromJson
+}
