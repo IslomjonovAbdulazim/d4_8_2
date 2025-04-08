@@ -24,6 +24,27 @@ class _MainPageState extends State<MainPage> {
       body: pages[currentPage],
       // continue
       // bottomNavigationBar: ,
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: currentPage,
+        onTap: (index) {
+          currentPage = index;
+          setState(() {});
+        },
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: "Posts"
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.image),
+            label: "Photos"
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.album),
+            label: "Albums"
+          ),
+        ],
+      ),
     );
   }
 }

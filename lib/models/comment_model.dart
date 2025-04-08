@@ -1,6 +1,6 @@
 class CommentModel {
   // members
-  late int userId;
+  late int postId;
   late int id;
   late String name;
   late String email;
@@ -8,7 +8,7 @@ class CommentModel {
 
   // fromJson
   CommentModel.fromJson(Map json) {
-    userId = json["userId"];
+    postId = json["postId"];
     id = json["id"];
     name = json["name"];
     email = json["email"];
