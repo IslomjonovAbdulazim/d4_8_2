@@ -1,4 +1,4 @@
-import 'package:d4_8_2/models/post_model.dart';
+import '../models/post_model.dart';
 import 'package:flutter/material.dart';
 
 class PostsPage extends StatefulWidget {

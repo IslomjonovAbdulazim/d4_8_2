@@ -1,4 +1,4 @@
-import 'package:d4_8_2/pages/main_page.dart';
+import 'pages/main_page.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';

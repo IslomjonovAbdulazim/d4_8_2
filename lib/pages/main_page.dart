@@ -1,6 +1,6 @@
-import 'package:d4_8_2/pages/albums_page.dart';
-import 'package:d4_8_2/pages/photos_page.dart';
-import 'package:d4_8_2/pages/posts_page.dart';
+import 'albums_page.dart';
+import 'photos_page.dart';
+import 'posts_page.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatefulWidget {

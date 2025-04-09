@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:d4_8_2/models/albums_model.dart';
-import 'package:d4_8_2/models/comment_model.dart';
-import 'package:d4_8_2/models/photo_model.dart';
-import 'package:d4_8_2/models/post_model.dart';
+import '../models/albums_model.dart';
+import '../models/comment_model.dart';
+import '../models/photo_model.dart';
+import '../models/post_model.dart';
 import 'package:http/http.dart' as http;
 
 class NetworkService {
