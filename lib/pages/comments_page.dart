@@ -50,6 +50,22 @@ class _CommentsPageState extends State<CommentsPage> {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
+                      title: Text(
+                        model.name,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      subtitle: Text(
+                        model.body,
+                        style: TextStyle(
+                          color: Colors.white,
+                          height: 1,
+                          fontWeight: FontWeight.w300,
+                          fontSize: 12,
+                        ),
+                      ),
                     ),
                   );
                 },
