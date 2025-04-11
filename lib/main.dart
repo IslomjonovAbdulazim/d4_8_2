@@ -1,3 +1,5 @@
+import 'package:d4_8_2/pages/todo_page.dart';
+
 import 'pages/main_page.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/cupertino.dart';
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MainPage(),
+      home: TodoPage(),
     );
   }
 }

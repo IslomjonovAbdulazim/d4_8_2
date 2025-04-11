@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:d4_8_2/models/todo_model.dart';
+
 import '../models/albums_model.dart';
 import '../models/comment_model.dart';
 import '../models/photo_model.dart';
@@ -60,4 +62,31 @@ class NetworkService {
     }
     return result;
   }
+
+  Future<List<TodoModel>> getAllTodos() async {
+    List<TodoModel> result = [];
+    Uri uri = Uri.parse("$baseUrl/Todos");
+    final response = await http.get(uri);
+    if (response.statusCode == 200) {
+      List jsonList = List.from(jsonDecode(response.body));
+      result = jsonList.map((json) => TodoModel.fromJson(json)).toList();
+    }
+    return result;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

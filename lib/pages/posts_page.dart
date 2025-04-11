@@ -1,10 +1,10 @@
-import 'package:d4_8_2/pages/comments_page.dart';
-import 'package:d4_8_2/service/network_service.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../models/post_model.dart';
+import '../service/network_service.dart';
+import 'comments_page.dart';
 
 class PostsPage extends StatefulWidget {
   const PostsPage({super.key});
